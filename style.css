@@ -15,7 +15,9 @@ body {
     max-width: 636px;
     min-height: 476px;
     border-radius: 0.5rem;
-    box-shadow: -4px 1px 16px 6px hsl(204, 43%, 93%) -webkit-box-shadow: -4px 1px 16px 6px hsl(204, 43%, 93%) -moz-box-shadow: -4px 1px 16px 6px hsl(204, 43%, 93%)
+box-shadow: -3px 1px 14px 9px rgba(202,220,234,0.75);
+-webkit-box-shadow: -3px 1px 14px 9px rgba(202,220,234,0.75);
+-moz-box-shadow: -3px 1px 14px 9px rgba(202,220,234,0.75);
 }
 
 .text-container {
@@ -95,6 +97,7 @@ button {
 .why-us {
     background-color: #4abebd;
     min-width: 319px;
+    border-bottom-right-radius: 0.5rem;
 }
 
 .why-us p {
