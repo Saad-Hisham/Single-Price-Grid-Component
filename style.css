@@ -1,0 +1,151 @@
+* {
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #e6eff6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent-container {
+    background: white;
+    max-width: 636px;
+    min-height: 476px;
+    border-radius: 0.5rem;
+    box-shadow: -4px 1px 16px 6px hsl(204, 43%, 93%) -webkit-box-shadow: -4px 1px 16px 6px hsl(204, 43%, 93%) -moz-box-shadow: -4px 1px 16px 6px hsl(204, 43%, 93%)
+}
+
+.text-container {
+    margin-left: 41px;
+    max-width: 513px;
+    margin-top: 27px;
+}
+
+.text-container h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 23px;
+}
+
+.text-container h2 {
+    color: hsl(71, 73%, 54%);
+    font-size: 17px;
+}
+
+.text-container p {
+    color: hsl(218, 22%, 67%);
+    font-size: 15px;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: space-between;
+    background: #2bb3b1;
+    color: white;
+    min-height: 260px;
+    margin-top: 76px;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+}
+
+.month-sub {
+    min-width: 317px;
+}
+
+.month-sub>div {
+    margin-left: 41px;
+}
+
+.month-sub h3 {
+    margin-top: 44px;
+    width: 179px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.month-sub p:nth-of-type(1) {
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.month-sub p:nth-of-type(1) span {
+    font-weight: 100;
+    font-size: 15px;
+    opacity: .5;
+    margin-left: 15px;
+}
+
+.month-sub p:nth-of-type(2) {
+    margin-top: -15px;
+}
+
+button {
+    min-width: 238px;
+    min-height: 50px;
+    background: #bfdf32;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 0.3rem;
+}
+
+.why-us {
+    background-color: #4abebd;
+    min-width: 319px;
+}
+
+.why-us p {
+    opacity: .5;
+    line-height: 1rem;
+    height: 134px;
+    line-height: 23px;
+    width: 181px;
+    font-size: 12px;
+}
+
+.why-us>div {
+    margin-left: 41px;
+}
+@media only screen and (max-width: 654px){
+
+
+    /* ------------- */
+.parent-container {
+    max-width: 313px;
+}
+
+.plans-container {
+    flex-direction: column;
+}
+
+.why-us {
+    min-width: 313px;
+    margin-top: 2rem;
+        padding-bottom: 13px;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+}
+.text-container {
+    margin-left: 30px;
+}
+
+.month-sub>div {
+    margin-left: 30px;
+}
+
+.why-us>div {
+    margin-left: 30px;
+}
+
+.plans-container {
+    margin-top: 36px;   
+}
+.text-container p {
+
+    max-width: 262px;
+    font-size: 13px;
+    line-height: 24px;
+}
+}
