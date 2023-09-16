@@ -18,12 +18,13 @@ body {
 box-shadow: -3px 1px 14px 9px rgba(202,220,234,0.75);
 -webkit-box-shadow: -3px 1px 14px 9px rgba(202,220,234,0.75);
 -moz-box-shadow: -3px 1px 14px 9px rgba(202,220,234,0.75);
+    padding: 1px;
 }
 
 .text-container {
     margin-left: 41px;
     max-width: 513px;
-    margin-top: 27px;
+    margin-top: 29px;
 }
 
 .text-container h1 {
@@ -151,4 +152,7 @@ button {
     font-size: 13px;
     line-height: 24px;
 }
+}
+footer {
+    text-align: center;
 }
